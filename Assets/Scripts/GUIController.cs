@@ -16,7 +16,6 @@ public class GUIController : MonoBehaviour {
 	void Start () {
 		
 	}
-
 	public void setPlayerTime(byte playerID, float time){
 		timeTexts[playerID].text = time.ToString("0.00") + "s";
 	}

@@ -1,9 +1,11 @@
 
 <h1  align="center"  style="border-bottom: none;">🔫Western Press Clone🏹</h1>
 
-<h3  align="center">Aplicação criada para entender os conceitos e lógica por trás do game [Western Press](http://www.westernpressgame.com/)</h3>  
+<h3  align="center">Aplicação criada para entender os conceitos e lógica por trás do game <a href="http://www.westernpressgame.com/">Western Press</a></h3>
 
-![Demo](git/images/screen-1.PNG)  
+<p align="center">
+![Demo](git/images/screen-1.PNG)
+</p>
 
 ## Observações
 
