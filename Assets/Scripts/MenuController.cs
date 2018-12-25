@@ -4,18 +4,13 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
 	public void StartGame(bool cpu){
+		SceneManager.LoadScene("Selects");
+		GameConfig.cpu = cpu;
+	}
 
+	public void SelectStage(int stage){
+		SceneManager.LoadScene("Game");
+		GameConfig.stage = (byte)stage;
 	}
 }

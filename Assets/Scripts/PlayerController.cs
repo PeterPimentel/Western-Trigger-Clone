@@ -14,18 +14,16 @@ public class PlayerController : MonoBehaviour {
 	private float time;
 	private float nextKeyTime;
 	void Start () {
+		bot = GameConfig.cpu;
 		if(playerID == 1)
 			opponent = 0;
 		else opponent = 1;
 	}
-	
-	// Update is called once per frame
 	void Update () {
 		// Verificar se todas as teclas já foram geradas
 		if(levelController.keysReady){
 			if(!finished){
-				time += Time.deltaTime;
-				
+				time += Time.deltaTime;				
 				//BOT
 				if(playerID == 1 && bot){
 					if(Time.time > nextKeyTime){
@@ -38,9 +36,11 @@ public class PlayerController : MonoBehaviour {
 
 				if(Input.GetButtonDown(levelController.gameKeys[keyIndex].key[playerID])){
 					KeyPress();
-				}else if(Input.anyKeyDown){
-					time += 0.3f; //Punição por apertar teclas loucamente
-					levelController.WrongPress();
+				}else if(Input.anyKeyDown){					
+					if(!OponentMove()){
+						time += 0.3f; //Punição por apertar teclas loucamente
+						levelController.WrongPress();
+					}
 				}
 			}
 		}
@@ -54,5 +54,17 @@ public class PlayerController : MonoBehaviour {
 			finished = true;
 			levelController.SetPlayerTime(playerID,time);
 		}
+	}
+
+//Duas pessoas jogando no mesmo teclado
+//Verificar se a tecla pressionada foi a do oponente
+	private bool OponentMove(){
+		foreach (var item in levelController.keys)
+		{
+			if(Input.GetButtonDown(item.key[opponent])){
+				return true;
+			}
+		}
+		return false;
 	}
 }

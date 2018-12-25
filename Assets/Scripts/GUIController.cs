@@ -13,13 +13,7 @@ public class GUIController : MonoBehaviour {
 	private RectTransform[] cursor;
 
 	private const int cursorMovemente = 110;
-	// Use this for initialization
 	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
 		
 	}
 

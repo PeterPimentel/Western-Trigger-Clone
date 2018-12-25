@@ -10,6 +10,7 @@ public class BackgroundController : MonoBehaviour {
 	[SerializeField]
 	private SpriteRenderer spRenderer;
 	void Start () {
+		SwapBG(GameConfig.stage);
 	}
 	public void SwapBG(byte level){
 		spRenderer.sprite = sprites[level];
