@@ -3,9 +3,7 @@
 
 <h3  align="center">Aplicação criada para entender os conceitos e lógica por trás do game <a href="http://www.westernpressgame.com/">Western Press</a></h3>
 
-<p align="center">
 ![Demo](git/images/screen-1.PNG)
-</p>
 
 ## Observações
 

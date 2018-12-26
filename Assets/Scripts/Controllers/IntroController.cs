@@ -15,11 +15,8 @@ public class IntroController : MonoBehaviour {
 
 	[SerializeField]
 	private GameObject mainMenu;
-
-	private TextUtil textUtil;
 	void Start () {
 		started = false;
-		textUtil = new TextUtil();
 	}
 	
 	// Update is called once per frame
@@ -27,7 +24,7 @@ public class IntroController : MonoBehaviour {
 		if(!started){
 			if(Input.anyKeyDown || Input.touchCount > 0 ){
 				started = true;
-				StartCoroutine(textUtil.FadingOut(start));
+				start.enabled = false;
 				cover.SetActive(true);
 				mainMenu.SetActive(true);
 			}

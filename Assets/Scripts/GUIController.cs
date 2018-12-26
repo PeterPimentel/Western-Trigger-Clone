@@ -17,7 +17,7 @@ public class GUIController : MonoBehaviour {
 		
 	}
 	public void setPlayerTime(byte playerID, float time){
-		timeTexts[playerID].text = time.ToString("0.00") + "s";
+		timeTexts[playerID].text = time.ToString("0.000");
 	}
 
 	private IEnumerator FadingText(TextMeshProUGUI text){
