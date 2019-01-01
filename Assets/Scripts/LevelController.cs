@@ -11,6 +11,9 @@ public class LevelController : MonoBehaviour {
 	private GUIController gui;
 	[SerializeField]
 	private AudioController audioController;
+
+	[SerializeField]
+	private PlayerFactoryController p2Factory;
 	[SerializeField]
 	private BackgroundController bg;
 	private GameObject p2;
@@ -24,8 +27,12 @@ public class LevelController : MonoBehaviour {
 	private float[] times = new float[2];
 	public bool keysReady;
 	void Start () {
-		p2 = GameObject.FindGameObjectWithTag("p2");
+		byte p2ID = GameConfig.character2;
+		byte p1ID = GameConfig.character1;
+
+		p2 = p2Factory.GetCharacter2(p2ID);
 		p2Animator = p2.GetComponent<P2AnimatorController>();
+
 		
 		p1 = GameObject.FindGameObjectWithTag("p1");
 		p1Animator = p1.GetComponent<P1AnimatorController>();
