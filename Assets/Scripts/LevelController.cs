@@ -13,13 +13,13 @@ public class LevelController : MonoBehaviour {
 	private AudioController audioController;
 
 	[SerializeField]
-	private PlayerFactoryController p2Factory;
+	private PlayerFactoryController playerFactory;
 	[SerializeField]
 	private BackgroundController bg;
 	private GameObject p2;
-	private P2AnimatorController p2Animator;
+	private PlayerAnimatorController p2Animator;
 	private GameObject p1;
-	private P1AnimatorController p1Animator;
+	private PlayerAnimatorController p1Animator;
 	public KeyModel[] keys;
 	public List <KeyModel> gameKeys = new List<KeyModel>();
 	public Image[] player1Images;
@@ -30,12 +30,11 @@ public class LevelController : MonoBehaviour {
 		byte p2ID = GameConfig.character2;
 		byte p1ID = GameConfig.character1;
 
-		p2 = p2Factory.GetCharacter2(p2ID);
-		p2Animator = p2.GetComponent<P2AnimatorController>();
+		p2 = playerFactory.GetCharacter2(p2ID);
+		p2Animator = p2.GetComponent<PlayerAnimatorController>();
 
-		
-		p1 = GameObject.FindGameObjectWithTag("p1");
-		p1Animator = p1.GetComponent<P1AnimatorController>();
+		p1 = playerFactory.GetCharacter1(p1ID);
+		p1Animator = p1.GetComponent<PlayerAnimatorController>();
 
 		keysReady = false;
 		StartCoroutine(sortKeys());
@@ -83,6 +82,7 @@ public class LevelController : MonoBehaviour {
 
 			}else{
 				p2Animator.triggerAttack();
+				p1Animator.triggerDead();
 			}
 			gui.setPlayerTime(0,times[0]);
 			gui.setPlayerTime(1,times[1]);			
