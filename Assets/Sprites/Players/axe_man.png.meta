@@ -1,21 +1,21 @@
 fileFormatVersion: 2
-guid: 270e918198cd058498e12d41b0dd5275
+guid: 61e2c9479c89ea84fb9aee5834c381af
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Sherif_0
-    21300002: Sherif_1
-    21300004: Sherif_2
-    21300006: Sherif_3
-    21300008: Sherif_4
-    21300010: Sherif_5
-    21300012: Sherif_6
-    21300014: Sherif_7
-    21300016: Sherif_8
-    21300018: Sherif_9
-    21300020: Sherif_10
-    21300022: Sherif_11
-    21300024: Sherif_12
-    21300026: Sherif_15
+    21300000: axe_man_0
+    21300002: axe_man_1
+    21300004: axe_man_2
+    21300006: axe_man_3
+    21300008: axe_man_4
+    21300010: axe_man_5
+    21300012: axe_man_6
+    21300014: axe_man_7
+    21300016: axe_man_8
+    21300018: axe_man_9
+    21300020: axe_man_10
+    21300022: axe_man_11
+    21300024: axe_man_12
+    21300026: axe_man_13
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -109,272 +109,292 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 1
+    overridden: 0
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sherif_0
+      name: axe_man_0
       rect:
         serializedVersion: 2
-        x: 30
-        y: 182
-        width: 20
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9537eb702c2eb294eaa7bb53883183b5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sherif_1
-      rect:
-        serializedVersion: 2
-        x: 116
-        y: 182
-        width: 18
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 67830ad4cabe3e342ace5a3d9ee16f46
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sherif_2
-      rect:
-        serializedVersion: 2
-        x: 201
-        y: 182
-        width: 18
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bbad8248a63e9074a86409789eabe4e4
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sherif_3
-      rect:
-        serializedVersion: 2
-        x: 289
-        y: 182
-        width: 20
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8f629c4797a997a4f90bd6cbc47ef11d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sherif_4
-      rect:
-        serializedVersion: 2
-        x: 362
-        y: 182
-        width: 32
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b729c94671b93594bb0759a8b5b1ba7b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sherif_5
-      rect:
-        serializedVersion: 2
-        x: 441
-        y: 182
-        width: 49
-        height: 43
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e960c5d79ab638a41963f5b7768aa82b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sherif_6
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 107
-        width: 65
-        height: 40
-      alignment: 9
-      pivot: {x: 0.6087748, y: 0.5000416}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b76b45ec007a740499a3e452715babcd
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sherif_7
-      rect:
-        serializedVersion: 2
-        x: 106
-        y: 107
-        width: 47
-        height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6404c207fab999b448ebccfdc8c40d38
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sherif_9
-      rect:
-        serializedVersion: 2
-        x: 196
-        y: 107
-        width: 46
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e0c5b3b065fc3eb4498682b2fad539a4
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sherif_10
-      rect:
-        serializedVersion: 2
-        x: 284
-        y: 107
-        width: 18
-        height: 43
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 67c8c6378aa69dd47869d7d97810b047
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sherif_11
-      rect:
-        serializedVersion: 2
-        x: 370
-        y: 107
+        x: 3
+        y: 95
         width: 19
-        height: 41
+        height: 25
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee1295e9e47598c44900dd026599ea4c
+      spriteID: d8e6e4c11dd74dc47b7000b87e96cde0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sherif_12
+      name: axe_man_1
       rect:
         serializedVersion: 2
-        x: 458
-        y: 144
+        x: 82
+        y: 95
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185292ec3d7fc32458140de01020a0b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: axe_man_2
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 95
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7f4906fc2619b47acf8d97b0a99433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: axe_man_3
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 95
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0c6cf443a43ff4c869088493b6f05b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: axe_man_4
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 95
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f244807fbe0ab914c80ccba79d431023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: axe_man_5
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 95
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01fe593cef121f4eb3c0d87883242a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: axe_man_6
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 95
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a48c96f8bf94b343a6c649664765ecc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: axe_man_7
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 55
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6e043457a5a3d4cac21bcd8b4ec027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: axe_man_8
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 55
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685f9d6377d99634fa8e2860f6bc7e7e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: axe_man_9
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 55
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536d8e6e69efdd24e8c07d4aa0b395a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: axe_man_10
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 55
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05c13e55a2a01f47a1bba7534fd6bdb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: axe_man_11
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 55
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f305a8b485556dd41b3d35d4114e2fa7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: axe_man_12
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 55
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7ba87a66610e44eac3735e2506b5c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: axe_man_13
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 55
         width: 14
-        height: 7
+        height: 25
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 216c8c6a77a78ec4a950c90a49e6dce0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sherif_15
-      rect:
-        serializedVersion: 2
-        x: 461
-        y: 107
-        width: 19
-        height: 36
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84408098884ca7f46b70de4b92cdfe26
+      spriteID: 28a75c7fff633534a875e47a7bfb62ab
       vertices: []
       indices: 
       edges: []
@@ -382,7 +402,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 3bdb5f447e425de45895c470a130b156
+    spriteID: 7f56776426d3d3e47b3b98b6f6b46d3a
     vertices: []
     indices: 
     edges: []

@@ -14,7 +14,12 @@ public class MenuController : MonoBehaviour {
 		GameConfig.cpu = true;
 		GameConfig.difficulty = (byte)diff;
 	}
-	public void SelectCharacter(int id){
+
+	public void SelectCharacter1(int id){
+		GameConfig.character1 = (byte)id;
+	}
+
+	public void SelectCharacter2(int id){
 		GameConfig.character2 = (byte)id;
 		SceneManager.LoadScene("Game");
 	}

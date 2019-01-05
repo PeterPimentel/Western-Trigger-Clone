@@ -9,50 +9,50 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1175860339448506}
+  m_RootGameObject: {fileID: 1280797281871248}
   m_IsPrefabAsset: 1
---- !u!1 &1175860339448506
+--- !u!1 &1280797281871248
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4543607314670090}
-  - component: {fileID: 212733075867052754}
-  - component: {fileID: 95253421800443046}
-  - component: {fileID: 114696209966335808}
-  - component: {fileID: 82374645854272594}
+  - component: {fileID: 4694230575841984}
+  - component: {fileID: 212002809227300492}
+  - component: {fileID: 95802433733857606}
+  - component: {fileID: 82320350320614190}
+  - component: {fileID: 114413936921389732}
   m_Layer: 0
-  m_Name: Pistol
-  m_TagString: p1
+  m_Name: Axe Man
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4543607314670090
+--- !u!4 &4694230575841984
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1175860339448506}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.11, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 1}
+  m_GameObject: {fileID: 1280797281871248}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 10, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &82374645854272594
+--- !u!82 &82320350320614190
 AudioSource:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1175860339448506}
+  m_GameObject: {fileID: 1280797281871248}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 9aecfda5d9d021943b62e3d2c0a55648, type: 3}
+  m_audioClip: {fileID: 8300000, guid: e088908f95e0754418b7d5131afdb162, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -138,16 +138,16 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!95 &95253421800443046
+--- !u!95 &95802433733857606
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1175860339448506}
+  m_GameObject: {fileID: 1280797281871248}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 2756025ecc65a5d4c9c62a510dec38f0, type: 2}
+  m_Controller: {fileID: 9100000, guid: a92593d94f3e08d4abcabe67683057f8, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -156,24 +156,24 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114696209966335808
+--- !u!114 &114413936921389732
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1175860339448506}
+  m_GameObject: {fileID: 1280797281871248}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c1d4db54884b5b4689a6fc2f9443e6c, type: 3}
+  m_Script: {fileID: 11500000, guid: 7d955a4374d2b39479077060f5644991, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioShoot: {fileID: 82374645854272594}
---- !u!212 &212733075867052754
+  audioShoot: {fileID: 82320350320614190}
+--- !u!212 &212002809227300492
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1175860339448506}
+  m_GameObject: {fileID: 1280797281871248}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -203,12 +203,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0ffb83dd383e58e40bc4ae712794baf3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 61e2c9479c89ea84fb9aee5834c381af, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.3, y: 0.62}
+  m_Size: {x: 0.19, y: 0.25}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
