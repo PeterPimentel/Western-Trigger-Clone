@@ -12,6 +12,12 @@
 - Player 1 vs Player 2
 - Player 1 vs CPU
 
+#### Controles
+| Player  | Botões   |
+|---------|--------|
+| 1       |A, S, D, W |
+| 2       |Setas |
+
 #### Personagens
 - Gunner A
 - Axe man A
@@ -27,6 +33,7 @@
 
 ## Créditos
 
- Background, UI and sounds - created by [Pixel-boy](https://twitter.com/2pblog1) for [Superpowers](http://superpowers-html5.com/) supporters!
-Cowboy - created by [Danny Pixel](https://www.instagram.com/dannypixel/)
+ Background, UI and sounds - created by [Pixel-boy](https://twitter.com/2pblog1) for [Superpowers]
+ (http://superpowers-html5.com/) supporters!
+ Cowboy - created by [Danny Pixel](https://www.instagram.com/dannypixel/)
 Axe man - created by [Warren Clark](https://lionheart963.itch.io/axe-bandit)
