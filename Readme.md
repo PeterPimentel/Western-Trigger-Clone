@@ -7,20 +7,22 @@
 
 ##  Gameplay
 
-### Modos de jogo
+#### Modos de jogo
 
 - Player 1 vs Player 2
 - Player 1 vs CPU
 
-### Personagens
+#### Personagens
 - Gunner A
 - Axe man A
 
-### Dificuldade
-| Dificuldade  | Time  |
-|--------------|-------|
-| Easy         |10-12s |
-| Normal       |10-11s |
+#### Dificuldade
+| Dificuldade  | Time   |
+|--------------|--------|
+| Easy         |0.4-0.7 |
+| Normal       |0.3-0.6 |
+| Hard         |0.25-0.5|
+| Extreme      |0.15-0.3|
 
 
 ## Créditos

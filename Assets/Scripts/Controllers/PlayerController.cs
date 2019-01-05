@@ -13,6 +13,13 @@ public class PlayerController : MonoBehaviour {
 	private bool finished = false;
 	private float time;
 	private float nextKeyTime;
+
+	private float[,] difficulty = new float[,] {
+		{ 0.4f, 0.7f },
+		{ 0.3f, 0.6f },
+		{ 0.25f, 0.5f },
+		{ 0.15f, 0.3f }
+	};
 	void Start () {
 		bot = GameConfig.cpu;
 		if(playerID == 1)
@@ -27,8 +34,8 @@ public class PlayerController : MonoBehaviour {
 				//BOT
 				if(playerID == 1 && bot){
 					if(Time.time > nextKeyTime){
-						// nextKeyTime = Time.time + Random.Range(0.25f,0.5f);
-						nextKeyTime = Time.time + Random.Range(0.4f,0.8f);
+						nextKeyTime = Time.time + Random.Range(
+							difficulty[GameConfig.difficulty,0],difficulty[GameConfig.difficulty,1]);
 						KeyPress();
 					}
 					return;

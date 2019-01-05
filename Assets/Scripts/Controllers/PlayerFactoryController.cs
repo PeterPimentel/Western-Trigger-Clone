@@ -17,7 +17,7 @@ public class PlayerFactoryController : MonoBehaviour {
 	}
 
 	public GameObject GetCharacter2(byte id){
-		GameObject character = Instantiate(charactersPlayer[1],spawPoints[1]);
+		GameObject character = Instantiate(charactersPlayer[id],spawPoints[1]);
 		var scaleX = character.transform.localScale.x;
 		var scaleY = character.transform.localScale.y;
 		character.transform.localScale = new Vector3(scaleX*-1,scaleY,1);
