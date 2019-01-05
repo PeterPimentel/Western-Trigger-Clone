@@ -1,14 +1,18 @@
 fileFormatVersion: 2
-guid: 76515fca05cbcad4b80fc924c5dd3246
+guid: e1db5abaeb8572948b1dca6619589371
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Boone_0
-    21300002: Boone_1
-    21300004: Boone_2
-    21300006: Boone_3
-    21300008: Boone_4
-    21300010: Boone_5
-    21300012: Boone_6
+    21300000: hud-32x32_3
+    21300002: hud-32x32_6
+    21300004: hud-32x32_7
+    21300006: hud-32x32_8
+    21300008: hud-32x32_9
+    21300010: hud-32x32_10
+    21300012: hud-32x32_11
+    21300014: hud-32x32_0
+    21300016: hud-32x32_12
+    21300018: hud-32x32_13
+    21300020: hud-32x32_1
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -113,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Boone_0
+      name: hud-32x32_3
       rect:
         serializedVersion: 2
-        x: 4
-        y: 5
-        width: 55
-        height: 47
+        x: 260
+        y: 68
+        width: 25
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,19 +131,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bb9aff5c5015c34ebd7f40c85d878d8
+      spriteID: 85dbe65ba8417c649ba7a75b0524b08d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boone_1
+      name: hud-32x32_6
       rect:
         serializedVersion: 2
-        x: 67
-        y: 5
-        width: 49
-        height: 49
+        x: 295
+        y: 72
+        width: 19
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,19 +151,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d1139ed1557a23499b36ec88a818f36
+      spriteID: 3bec5d0736335d34b9b2c15a1b0cf450
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boone_2
+      name: hud-32x32_7
       rect:
         serializedVersion: 2
-        x: 130
-        y: 5
-        width: 55
-        height: 47
+        x: 228
+        y: 40
+        width: 24
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,19 +171,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8c79abc49f43d549be0029228bd8929
+      spriteID: 1d845508b03daa042b126eaef3cef2f9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boone_3
+      name: hud-32x32_8
       rect:
         serializedVersion: 2
-        x: 193
-        y: 5
-        width: 56
-        height: 49
+        x: 259
+        y: 36
+        width: 27
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,19 +191,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ba7c6a01030dc94a86f0043ce61c57b
+      spriteID: 265dc374bb5f34d4196a8fee05f75539
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boone_4
+      name: hud-32x32_9
       rect:
         serializedVersion: 2
-        x: 257
-        y: 5
-        width: 53
-        height: 49
+        x: 297
+        y: 41
+        width: 16
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,19 +211,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ee78bda64237fe4daa28f455abd4440
+      spriteID: 8996165b5caead5408a8ff8f50ef1f90
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boone_5
+      name: hud-32x32_10
       rect:
         serializedVersion: 2
-        x: 318
-        y: 5
-        width: 55
-        height: 22
+        x: 228
+        y: 8
+        width: 24
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,19 +231,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f557b1804fb84d44a8ada1c58a693e5f
+      spriteID: f2ab91a0dbb77ee43bd63476040d3356
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boone_6
+      name: hud-32x32_11
       rect:
         serializedVersion: 2
-        x: 381
-        y: 5
-        width: 56
-        height: 48
+        x: 260
+        y: 4
+        width: 25
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,7 +251,87 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3c47408e87711842b3bcce67221a5ca
+      spriteID: 2457f17c7d755b8438deb090ca57ce15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud-32x32_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1172cc116150b29469db96938bf9f645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud-32x32_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb5e52585e2c46469755160923b80f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud-32x32_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd37d8f73a6e1824c9c49d47f520c738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud-32x32_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651b389829319c84491b4765acd526fc
       vertices: []
       indices: 
       edges: []
@@ -255,7 +339,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: f5370cf712485fd46a664fdcdffd0016
+    spriteID: a286aab196327a849b23bc261e9e7092
     vertices: []
     indices: 
     edges: []

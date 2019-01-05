@@ -45,6 +45,11 @@ public class GUIController : MonoBehaviour {
 	}
 
 	public void ReloadScene(){
-		SceneManager.LoadScene("game");
+		Scene scene = SceneManager.GetActiveScene();
+		SceneManager.LoadScene(scene.name);
+	}
+
+	public void Exit(){
+		SceneManager.LoadScene("Menu");
 	}
 }

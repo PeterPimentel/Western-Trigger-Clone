@@ -27,4 +27,6 @@
 
 ## Créditos
 
- Assets created by [Pixel-boy](https://twitter.com/2pblog1) for [Superpowers](http://superpowers-html5.com/) supporters!
+ Background, UI and sounds - created by [Pixel-boy](https://twitter.com/2pblog1) for [Superpowers](http://superpowers-html5.com/) supporters!
+Cowboy - created by [Danny Pixel](https://www.instagram.com/dannypixel/)
+Axe man - created by [Warren Clark](https://lionheart963.itch.io/axe-bandit)
